@@ -26,7 +26,7 @@ User access flow ensures a secure environment for accessing documents within MyP
 # Business Logic Layer:
 **Message Broker:** When a new document becomes available in the system (e.g., uploaded to S3 storage), the AWS Simple Queue Service on the Paperless system can publish a message through the message broker. This triggers real-time notifications for MyProduct or custom services for document processing. The message broker decouples document upload from notification delivery. The Paperless system can publish the message and continue processing, while the message broker ensures notifications are delivered to subscribed consumers asynchronously. It can handle high volumes of messages efficiently and scales independently of other system components.
 
-#API services:
+# API services:
 Manages customer preferences, document access control, notification generation, and document retrieval from the document storage system.
 1. **Preference Management microservice:** It stores user preferences related to paperless document delivery. This could include Preferred document delivery method (paper vs. electronic) for different document types (e.g., statements, policy updates) and Communication preferences (email vs. SMS) for notification of new documents.
 2. **DocumentCreation microservice:** They are used to automate generation of various documents based on templates and data sources. For example, they can create invoices, contracts, or reports by merging pre-defined templates with customer data.

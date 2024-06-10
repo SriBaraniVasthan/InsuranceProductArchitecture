@@ -3,7 +3,8 @@
 **Problem Statement:** https://github.com/SriBaraniVasthan/InsuranceProductArchitecture/blob/main/Paperless.pdf
 
 **High-Level Architecture for "Paperless" Project in a Layered Architecture:**
-https://github.com/SriBaraniVasthan/InsuranceProductArchitecture/blob/main/MyProductChallenge.jpg
+![MyProductChallenge](https://github.com/SriBaraniVasthan/InsuranceProductArchitecture/assets/63550126/d8587ebc-b7ad-4534-ba36-be29b10799a8)
+
 
 User access flow ensures a secure environment for accessing documents within MyProduct's Paperless project. It leverages various components to manage user authentication, authorization, document storage, access control, and user preferences, providing a seamless paperless experience for customers and staff. It promotes modularity and clear separation of concerns between different layers.
 

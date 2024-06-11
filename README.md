@@ -1,6 +1,7 @@
 # Architecture Challenge for an insurance company
 
 **Problem Statement:** https://github.com/SriBaraniVasthan/InsuranceProductArchitecture/blob/main/Paperless.pdf
+The time allowed for complete this challenge was 1 hour. 
 
 **High-Level Architecture for "Paperless" Project in a Layered Architecture:**
 ![MyProductChallenge](https://github.com/SriBaraniVasthan/InsuranceProductArchitecture/assets/63550126/d8587ebc-b7ad-4534-ba36-be29b10799a8)

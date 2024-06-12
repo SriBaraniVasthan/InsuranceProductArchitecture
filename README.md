@@ -1,4 +1,4 @@
-# Architecture Challenge for an insurance company
+# Architecture Challenge for an insurance Product
 
 **Problem Statement:** https://github.com/SriBaraniVasthan/InsuranceProductArchitecture/blob/main/Paperless.pdf
 The time allowed for complete this challenge was 1 hour. 
